@@ -2,7 +2,7 @@
 
 ### [Paper](https://arxiv.org/pdf/2410.20346)
 
-![overview](docs/arch.pdf)
+![overview](docs/arch.png)
 
 ## Installation and Data Preparation
 

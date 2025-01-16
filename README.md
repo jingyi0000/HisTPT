@@ -2,31 +2,18 @@
 
 ### [Paper](https://arxiv.org/pdf/2410.20346)
 
-![overview](docs/histpt.png)
+![overview](docs/arch.pdf)
 
-## Installation
+## Installation and Data Preparation
+
+Please refer to [SEEM](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once) for installation and [Mask2Former](https://github.com/facebookresearch/Mask2Former/tree/main/datasets) for data preparation.
+
+
+## Test-time Tuning
 
 ```sh
-# Python Package Installation
-pip install -r requirements/requirements.txt
-pip install -r requirements/requirements_custom.txt
+bash scripts/train.sh
 ```
-
-## Data Preparation
-Please refer to [Mask2Former](https://github.com/facebookresearch/Mask2Former/tree/main/datasets) for data preparation.
-
-### Expected dataset structure for [cityscapes](https://www.cityscapes-dataset.com/downloads/):
-
-```
-└── dataset
-    ├── cityscapes
-        ├── annotations
-        ├── gtFine
-        └── leftImg8bit
-```
-
-
-## Test-Time Tuning
 
 ## Citation
 We appreciate your citations if you find our paper related and useful to your research!
@@ -41,4 +28,4 @@ We appreciate your citations if you find our paper related and useful to your re
 
 
 ## Acknowledgments
-This code is heavily borrowed from [[SEEM](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once)].
+This code is heavily borrowed from [SEEM](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once).
